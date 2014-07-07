@@ -13,6 +13,13 @@ A memory aware approach for multi tenancy environments with a dedicated applicat
 ## Usage
 
 This setup isn't simple but stable and nearly plattform independent.
+Tested on Ubuntu 12.04 64bit
+
+```
+sudo aptitude update
+sudo aptitude -y install build-essential libpcre3-dev libpq-dev
+sudo aptitude -y install luarocks postgresql
+```
 
 ### Web server
 
@@ -70,8 +77,8 @@ Download and install [PostgreSQL][postgres]
 
 Create a database.
 ```sh
-sudo su postgres
-createdb lamutib
+sudo -u postgres psql -c "CREATE USER \"lamutib\" WITH ENCRYPTED PASSWORD 'SecreT';"
+sudo -u postgres createdb -O "lamutib" "lamutib"
 ```
 
 ### Boot'em up

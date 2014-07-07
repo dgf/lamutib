@@ -5,5 +5,5 @@ config { "development", "test", "production" }, ->
   num_workers 1
   worker_connections 7
   code_cache "off"
-  postgresql_url "postgres://postgres:postgres@127.0.0.1/lamutib"
+  postgresql_url "postgres://lamutib:SecreT@127.0.0.1/lamutib"
 

@@ -1,5 +1,6 @@
 nginx.conf.compiled
 client_body_temp/
 logs/
+.vagrant/
 *.lua
 *.swp
