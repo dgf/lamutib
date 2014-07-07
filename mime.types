@@ -1,0 +1,14 @@
+types {
+  application/pdf          pdf;
+  application/x-javascript js;
+  application/zip          zip;
+  image/gif                gif;
+  image/jpeg               jpg jpeg;
+  image/png                png;
+  image/svg+xml            svg;
+  image/tiff               tif tiff;
+  image/x-icon             ico;
+  text/css                 css;
+  text/html                html;
+}
+
