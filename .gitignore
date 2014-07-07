@@ -1,0 +1,5 @@
+nginx.conf.compiled
+client_body_temp/
+logs/
+*.lua
+*.swp
